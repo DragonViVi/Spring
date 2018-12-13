@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/batch/batch.iml" filepath="$PROJECT_DIR$/batch/batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaEight/javaEight.iml" filepath="$PROJECT_DIR$/javaEight/javaEight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyl-advanced.iml" filepath="$PROJECT_DIR$/lyl-advanced.iml" />
+    </modules>
+  </component>
+</project>
