@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <RECORDS>
     <RECORD>
+        <name>张三</name>
         <status>0</status>
-        <username>张三</username>
     </RECORD>
     <RECORD>
+        <name>李四</name>
         <status>1</status>
-        <username>李四</username>
     </RECORD>
 </RECORDS>

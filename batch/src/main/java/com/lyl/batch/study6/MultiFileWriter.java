@@ -1,22 +1,20 @@
 package com.lyl.batch.study6;
 
 import org.springframework.batch.item.ItemWriter;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 /**
- * Date:2018/12/13 0013 下午 5:22
+ * Date:2018/12/14 0014 上午 10:29
  *
  * @author :liyunlong
  * @Description:
- * @UpdateDate: 2018/12/13 0013 下午 5:22
+ * @UpdateDate: 2018/12/14 0014 上午 10:29
  */
-@Component
-public class XmlFileWriter implements ItemWriter<Template>{
+public class MultiFileWriter implements ItemWriter<Template> {
     @Override
     public void write(List<? extends Template> list) throws Exception {
+        System.out.println("============MultiFileWriter============");
         list.forEach(System.out::println);
-        System.err.println("===================");
     }
 }
