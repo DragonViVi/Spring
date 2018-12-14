@@ -37,7 +37,8 @@ ItemReader 可以理解为：在批处理中，需要处理的数据。
  > > * JpaPagingItemReader：使用 JPA 获取数据
 
 
-
+##study7
+ -ItemWriter
 
     
 

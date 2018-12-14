@@ -1,4 +1,4 @@
-package com.lyl.batch.study6;
+package com.lyl.batch.model;
 
 /**
  * Date:2018/12/13 0013 下午 4:26
