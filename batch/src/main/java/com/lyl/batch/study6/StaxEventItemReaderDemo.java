@@ -48,5 +48,8 @@ public class StaxEventItemReaderDemo {
         // 设置要读取的 xml 根节点 ---
         Map<String, Class> map = new HashMap<>(1);
         map.put("RECORD",Template.class);
+        unmarshaller.setAliases(map);
+        reader.setUnmarshaller(unmarshaller);
+        return reader;
     }
 }

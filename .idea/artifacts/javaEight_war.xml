@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="javaEight:war">
-    <output-path>$PROJECT_DIR$/javaEight/target</output-path>
-    <root id="archive" name="javaEight.war">
-      <element id="artifact" artifact-name="javaEight:war exploded" />
-    </root>
-  </artifact>
-</component>
