@@ -2,7 +2,8 @@
 
 
 ---
-
+com.mysql.jdbc.Driver 是 mysql-connector-java 5中的，
+com.mysql.cj.jdbc.Driver 是 mysql-connector-java 6中的
 ### src->main->java->constomDecider
 
 ##study1

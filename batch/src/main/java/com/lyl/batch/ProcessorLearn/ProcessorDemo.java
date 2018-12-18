@@ -1,4 +1,4 @@
-//package com.lyl.batch.study8;
+//package com.lyl.batch.ProcessorLearn;
 //
 //import com.fasterxml.jackson.core.JsonProcessingException;
 //import com.fasterxml.jackson.databind.ObjectMapper;
@@ -36,6 +36,10 @@
 // * <p>
 // * <p>
 // * Processor 是在ItemReader 到ItemWriter 之间的一个数据转换操作。
+// * <p>
+// * ItemProcessor<I,O>用于处理业务逻辑，验证，过滤等功能
+// * <p>
+// * 案例：从数据库中读取数据，然后对数据进行处理，最后输出到普通文件
 // */
 //@Configuration
 //@EnableBatchProcessing
