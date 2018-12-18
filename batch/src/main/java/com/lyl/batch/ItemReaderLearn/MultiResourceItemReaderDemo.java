@@ -7,7 +7,7 @@
 //import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepScope;
-//import org.springframework.batch.item.ItemWriter;
+//import org.springframework.batch.item.ItemWriterLearn;
 //import org.springframework.batch.item.file.FlatFileItemReader;
 //import org.springframework.batch.item.file.MultiResourceItemReader;
 //import org.springframework.batch.item.file.mapping.DefaultLineMapper;
@@ -46,9 +46,9 @@
 //
 //    private final StepBuilderFactory stepBuilderFactory;
 //
-//    private final ItemWriter<Template> multiFileWriter;
+//    private final ItemWriterLearn<Template> multiFileWriter;
 //
-//    public MultiResourceItemReaderDemo(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory, ItemWriter<Template> multiFileWriter) {
+//    public MultiResourceItemReaderDemo(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory, ItemWriterLearn<Template> multiFileWriter) {
 //        this.jobBuilderFactory = jobBuilderFactory;
 //        this.stepBuilderFactory = stepBuilderFactory;
 //        this.multiFileWriter = multiFileWriter;

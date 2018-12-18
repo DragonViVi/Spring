@@ -6,7 +6,7 @@
 //import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 //import org.springframework.batch.item.ItemReader;
-//import org.springframework.batch.item.ItemWriter;
+//import org.springframework.batch.item.ItemWriterLearn;
 //import org.springframework.batch.item.support.ListItemReader;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.context.annotation.Bean;
@@ -73,8 +73,8 @@
 //
 //
 //    @Bean
-//    public ItemWriter<String> itemWriter() {
-//        return new ItemWriter<String>() {
+//    public ItemWriterLearn<String> itemWriter() {
+//        return new ItemWriterLearn<String>() {
 //            @Override
 //            public void write(List<? extends String> list) throws Exception {
 //                list.forEach(System.out::println);

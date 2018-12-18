@@ -9,7 +9,7 @@
 //import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepScope;
-//import org.springframework.batch.item.ItemWriter;
+//import org.springframework.batch.item.ItemWriterLearn;
 //import org.springframework.batch.item.file.FlatFileItemReader;
 //import org.springframework.batch.item.file.FlatFileItemWriter;
 //import org.springframework.batch.item.file.mapping.DefaultLineMapper;
@@ -74,9 +74,9 @@
 //    public ClassifierCompositeItemWriter<Template> multiFileWriter1() {
 //        ClassifierCompositeItemWriter<Template> writer = new ClassifierCompositeItemWriter<>();
 //
-//        writer.setClassifier(new Classifier<Template, ItemWriter<? super Template>>() {
+//        writer.setClassifier(new Classifier<Template, ItemWriterLearn<? super Template>>() {
 //            @Override
-//            public ItemWriter<? super Template> classify(Template city) {
+//            public ItemWriterLearn<? super Template> classify(Template city) {
 //                // 按照 City 的 id 进行分类
 //                if (city.getStatus() % 2 == 0){
 //                    return txtItemWriter2();

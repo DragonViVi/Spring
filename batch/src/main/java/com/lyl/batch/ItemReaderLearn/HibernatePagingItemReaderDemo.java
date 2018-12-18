@@ -1,4 +1,4 @@
-package com.lyl.batch.study6;
+package com.lyl.batch.ItemReaderLearn;
 
 //
 ///**

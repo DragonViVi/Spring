@@ -7,7 +7,7 @@
 //import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepScope;
-//import org.springframework.batch.item.ItemWriter;
+//import org.springframework.batch.item.ItemWriterLearn;
 //import org.springframework.batch.item.xml.StaxEventItemReader;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
@@ -33,9 +33,9 @@
 //
 //    private final StepBuilderFactory stepBuilderFactory;
 //
-//    private final ItemWriter<Template> xmlFileWriter;
+//    private final ItemWriterLearn<Template> xmlFileWriter;
 //
-//    public StaxEventItemReaderDemo(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory, ItemWriter<Template> xmlFileWriter) {
+//    public StaxEventItemReaderDemo(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory, ItemWriterLearn<Template> xmlFileWriter) {
 //        this.jobBuilderFactory = jobBuilderFactory;
 //        this.stepBuilderFactory = stepBuilderFactory;
 //        this.xmlFileWriter = xmlFileWriter;

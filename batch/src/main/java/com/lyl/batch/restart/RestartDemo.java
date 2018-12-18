@@ -7,7 +7,7 @@
 //import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 //import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 //import org.springframework.batch.item.ItemReader;
-//import org.springframework.batch.item.ItemWriter;
+//import org.springframework.batch.item.ItemWriterLearn;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
 //
@@ -26,11 +26,11 @@
 //
 //    private final StepBuilderFactory stepBuilderFactory;
 //
-//    private final ItemWriter<City> restartWriter;
+//    private final ItemWriterLearn<City> restartWriter;
 //
 //    private final ItemReader<City> restartReader;
 //
-//    public RestartDemo(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory, ItemWriter<City> restartWriter, ItemReader<City> restartReader) {
+//    public RestartDemo(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory, ItemWriterLearn<City> restartWriter, ItemReader<City> restartReader) {
 //        this.jobBuilderFactory = jobBuilderFactory;
 //        this.stepBuilderFactory = stepBuilderFactory;
 //        this.restartWriter = restartWriter;
