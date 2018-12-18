@@ -7,9 +7,11 @@
 
 ##study1
 - 初始学习SpringBatch 
+- FlowDemo 聚合多个Step
+- SpiltDemo 多个Flow执行
  
 ## study2
--  学习使用决策者
+-  决策器 ：实现JobExecutionDecider
 
 ## study3
 - 学习监听器 StepExecutionListener
