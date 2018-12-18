@@ -47,7 +47,7 @@
 ////                .next(stepDemo4())
 ////                .next(stepDemo5())
 ////                .build();
-//                //1 跳转到3
+//                //1 跳转到3  on 表条件
 //                .start(stepDemo1()).on(COMPLETED).to(stepDemo3())
 //                //3跳转到4
 //                .from(stepDemo3()).on(COMPLETED).to(stepDemo4())

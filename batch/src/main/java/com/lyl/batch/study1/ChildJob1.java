@@ -22,6 +22,7 @@
 // * @UpdateDate: 2018/12/13 0013 上午 10:13
 // */
 ////@SpringBootApplication
+//
 ///**
 // * 等价于Spring-context.xml
 // */
@@ -32,8 +33,9 @@
 //@EnableBatchProcessing
 //public class ChildJob1 {
 //
+//    //注入创建任务对象的对象
 //    private final JobBuilderFactory jobBuilderFactory;
-//
+//    //任务的执行由Step创建
 //    private final StepBuilderFactory stepBuilderFactory;
 //
 //    @Autowired
