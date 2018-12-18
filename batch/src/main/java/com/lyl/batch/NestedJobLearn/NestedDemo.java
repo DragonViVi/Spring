@@ -57,7 +57,7 @@ public class NestedDemo {
         return new JobStepBuilder(new StepBuilder("childJob2"))
                 //子job
                 .job(childJobTwo)
-                //启动器
+                //启动父job的启动对象
                 .launcher(jobLauncher)
                 //持久化
                 .repository(repository)
